@@ -35,6 +35,11 @@ $\Delta \upsilon \approx -\eta \nabla С$
 
 $\Delta C  \approx -\eta ||\nabla C||^2$ < 0  $\longrightarrow$  downward movement of the function
 
+\\
+Finally,
+
+$\upsilon \longrightarrow \upsilon^{'} = \upsilon -  \eta \nabla С$
+
 
 
 
