@@ -1,3 +1,5 @@
+## Neural Network
+
 Much of the information given below is taken from the book "Neural Networks and Deep Learning" written by **Michael Nielsen**. Ref: http://neuralnetworksanddeeplearning.com/chap1.html
 
 The idea is to recignize the following pattern automatically: 
