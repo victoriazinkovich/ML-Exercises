@@ -20,12 +20,12 @@ To quantify how well we are training the network we define a cost function (we m
 
 $C( \omega, b)  \equiv \dfrac{1}{2n} \sum_x \parallel y(x) - a \parallel $
 
-So the aim of our training algorithm will be to minimize the cost $C(\omega,b)$ as a function of the weights and biases. In other words, we want to find a set of weights and biases which make the cost as small as possible. We'll do that using an algorithm known as **gradient descent**.
+So the aim of our training algorithm will be to minimize the cost $C(\omega,b)$ as a function of the weights and biases. In other words, we want to find a set of weights and biases which make the cost as small as possible. We'll do that using an algorithm known as **stochastic gradient descent**.
 
 $\text{}$
 
-## Gradient Descent
-Based on the idea that we launch a ball in a valley, trying to find the minimum of the function $C(\upsilon_1, \upsilon_2)$.
+## Stochastic Gradient Descent
+Let's first examine the more simple idea of gradient descent. Based on the idea that we launch a ball in a valley, trying to find the minimum of the function $C(\upsilon_1, \upsilon_2)$.
 
 $\Delta C \approx \dfrac{\delta C}{\delta \upsilon_1}\Delta \upsilon_1 + \dfrac{\delta C}{\delta \upsilon_2}\Delta \upsilon_2 \approx \nabla C \Delta \upsilon$
 
@@ -39,8 +39,11 @@ Finally,
 
 $\upsilon \longrightarrow \upsilon^{'} = \upsilon -  \eta \nabla С$
 
+In practical implementations, $\eta$ is often varied so that equation above remains a good approximation, but the algorithm isn't too slow.
 
+$\text{}$
 
+Since the cost function has the form of sum, we need to compute each gradient of the sum separately, that can take a long time. An idea called **stochastic gradient descent** can be used to speed up learning.
 
 
 
