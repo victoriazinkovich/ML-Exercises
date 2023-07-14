@@ -25,7 +25,9 @@ So the aim of our training algorithm will be to minimize the cost $C(\omega,b)$ 
 $\text{}$
 
 ## Gradient Descent
+Based on the idea that we launch a ball in a valley, trying to find the minimum of the function $C(\upsilon_1, \upsilon_2)$.
 
+$\Delta C \approx \dfrac{\delta C}{\delta \upsilon_1}\Delta \upsilon_1 + \dfrac{\delta C}{\delta \upsilon_2}\Delta \upsilon_2$
 
 
 
