@@ -13,7 +13,4 @@ To recognize individual digits we will use a **three-layer neural network**:
 3. The output layer of the network contains 10 neurons (i.e. if the first neuron has an output $\approx$ 1, then that will indicate that the network thinks the digit is a 0).
 
 To quantify how well we are training the network we define a cost function:
-
-<img src="https://latex.codecogs.com/svg.image?&space;C(\omega,b)\equiv\dfrac{1}{2n}\sum_x\parallel&space;y(x)-a\parallel&space" />
-
 $C( \omega, b)  \equiv \dfrac{1}{2n} \sum_x \parallel y(x) - a \parallel $
