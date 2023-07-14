@@ -6,6 +6,8 @@ The idea is to recignize the following pattern automatically:
 
 <img src="https://github.com/victoriazinkovich/ML-Exercises/assets/78615928/edf1bceb-3ec3-4442-b8ba-f0932983eb63" width="150" />
 
+$\text{}$
+
 To recognize individual digits we will use a **three-layer neural network**:
 
 <img src="https://github.com/victoriazinkovich/ML-Exercises/assets/78615928/842f5b9a-e726-4643-b474-c13eb8f8a7ea" width="350" />
