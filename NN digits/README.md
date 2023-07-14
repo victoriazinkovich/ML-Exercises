@@ -31,9 +31,9 @@ $\Delta C \approx \dfrac{\delta C}{\delta \upsilon_1}\Delta \upsilon_1 + \dfrac{
 
 Then, the law of ball's motion can be defined as:
 
-$\Delta \upsilon \approx -\eta \nabla$
+$\Delta \upsilon \approx -\eta \nabla С$
 
-$\Delta C  \approx -\eta ||\nabla C||^2$
+$\Delta C  \approx -\eta ||\nabla C||^2$ < 0  $\longrightarrow$  downward movement of the function
 
 
 
