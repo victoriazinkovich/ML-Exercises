@@ -14,8 +14,19 @@ To recognize individual digits we will use a **three-layer neural network**:
 
 $\text{}$
 
-To quantify how well we are training the network we define a cost function:
+To quantify how well we are training the network we define a cost function (we minimize it instead of number of correctly guessed images sincethe cost function is *smooth*):
 
 $C( \omega, b)  \equiv \dfrac{1}{2n} \sum_x \parallel y(x) - a \parallel $
 
 So the aim of our training algorithm will be to minimize the cost $C(\omega,b)$ as a function of the weights and biases. In other words, we want to find a set of weights and biases which make the cost as small as possible. We'll do that using an algorithm known as **gradient descent**.
+
+
+### Gradient Descent
+
+
+
+
+
+
+
+
