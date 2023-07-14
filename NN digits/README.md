@@ -27,7 +27,7 @@ $\text{}$
 ## Stochastic Gradient Descent
 Let's first examine the more simple idea of gradient descent. Based on the idea that we launch a ball in a valley, trying to find the minimum of the function $C(\upsilon_1, \upsilon_2)$.
 
-$\Delta C \approx \dfrac{\delta C}{\delta \upsilon_1}\Delta \upsilon_1 + \dfrac{\delta C}{\delta \upsilon_2}\Delta \upsilon_2 \approx \nabla C \Delta \upsilon$
+$\Delta C \approx \dfrac{\partial C}{\partial \upsilon_1}\Delta \upsilon_1 + \dfrac{\partial C}{\partial \upsilon_2}\Delta \upsilon_2 \approx \nabla C \Delta \upsilon$
 
 Then, the law of ball's motion can be defined as:
 
