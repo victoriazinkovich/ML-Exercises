@@ -1,4 +1,4 @@
 Much of the information given below is taken from the book "Neural Networks and Deep Learning" written by **Michael Nielsen**. 
 
 
-The idea is to recignize the following pattern: <img src="[https://user-images.githubusercontent.com/link-to-your-image.png](https://github.com/victoriazinkovich/ML-Exercises/assets/78615928/f801faf4-d900-4d85-afd1-d3a81347a28c)https://github.com/victoriazinkovich/ML-Exercises/assets/78615928/f801faf4-d900-4d85-afd1-d3a81347a28c" width="200" />
+The idea is to recignize the following pattern: <img src="![image](https://github.com/victoriazinkovich/ML-Exercises/assets/78615928/571bd818-6a65-4f2f-8bd1-75bbc2605316)" width="200" />
