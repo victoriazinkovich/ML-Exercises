@@ -27,8 +27,13 @@ $\text{}$
 ## Gradient Descent
 Based on the idea that we launch a ball in a valley, trying to find the minimum of the function $C(\upsilon_1, \upsilon_2)$.
 
-$\Delta C \approx \dfrac{\delta C}{\delta \upsilon_1}\Delta \upsilon_1 + \dfrac{\delta C}{\delta \upsilon_2}\Delta \upsilon_2$
+$\Delta C \approx \dfrac{\delta C}{\delta \upsilon_1}\Delta \upsilon_1 + \dfrac{\delta C}{\delta \upsilon_2}\Delta \upsilon_2 \approx \nabla C \Delta \upsilon$
 
+Then, the law of ball's motion can be defined as:
+
+$\Delta \upsilon \approx -\eta \nabla$
+
+$\Delta C  \approx -\eta ||\nabla C||^2$
 
 
 
