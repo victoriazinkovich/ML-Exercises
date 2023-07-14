@@ -43,7 +43,7 @@ In practical implementations, $\eta$ is often varied so that equation above rema
 
 $\text{}$
 
-Since the cost function has the form of sum, we need to compute each gradient of the sum separately, that can take a long time. An idea called **stochastic gradient descent** can be used to speed up learning.
+Since the cost function has the form of sum, we need to compute each gradient of the sum separately, that can take a long time. An idea called **stochastic gradient descent** can be used to speed up learning. The idea is to estimate the gradient $\nabla C$ by computing $\nabla C_x$ for a small sample of randomly chosen training inputs.
 
 
 
