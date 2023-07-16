@@ -50,8 +50,11 @@ Since the cost function has the form of sum, we need to compute each gradient of
 $\text{}$
 
 ## Backpropagation algorithm
-To find partial derivatives $\partial C/\partial \omega$ and $\partial C/\partial b$ of the cost function C with respect to any weight $\omega$ (or bias $b$) the backpropagation algorithm is used.
+To find partial derivatives $\partial C/\partial \omega$ and $\partial C/\partial b$ of the cost function C with respect to any weight $\omega$ (or bias $b$) the backpropagation algorithm is used. First, we introduce the error function
 
+$\delta^L_j = \dfar{\partial C}{\partial z_j^l} = \dfar{\partial C}{\partial a_j^l} \sigma'(z^L_j)$
+
+By combining two equations we can compute the error for any layer in the network. 
 
 
 
