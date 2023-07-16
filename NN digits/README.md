@@ -47,5 +47,15 @@ $\text{}$
 
 Since the cost function has the form of sum, we need to compute each gradient of the sum separately, that can take a long time. An idea called **stochastic gradient descent** can be used to speed up learning. The idea is to estimate the gradient $\nabla C$ by computing $\nabla C_x$ for a small sample of randomly chosen training inputs. Then we pick out another randomly chosen mini-batch and train with those. And so on, until we've exhausted the training inputs, which is said to complete an epoch of training. At that point we start over with a new training epoch.
 
+$\text{}$
+
+## Backpropagation algorithm
+To find partial derivatives $\partial C/\partial \omega$ and $\partial C/\partial b$ of the cost function C with respect to any weight $\omega$ (or bias $b$) the backpropagation algorithm is used.
+
+
+
+
+
+
 
 
