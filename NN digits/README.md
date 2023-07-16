@@ -58,7 +58,7 @@ By combining equations of error evolution we can compute the error for any layer
 
 $\dfrac{\partial C}{\partial b} = \dfrac{\partial z}{\partial b} \dfrac{\partial a}{\partial z} \dfrac{\partial C}{\partial a} = 1 \cdot \delta$
 
-$\delta^L_j = \dfrac{\partial C}{\partial z_j^l} = \dfrac{\partial C}{\partial a_j^l} \sigma'(z^L_j)$
+$\dfrac{\partial C}{\partial \omega} = \dfrac{\partial z}{\partial \omega} \dfrac{\partial a}{\partial z} \dfrac{\partial C}{\partial a} = a \cdot \delta$
 
 
 
