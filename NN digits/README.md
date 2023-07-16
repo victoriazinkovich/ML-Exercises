@@ -54,7 +54,11 @@ To find partial derivatives $\partial C/\partial \omega$ and $\partial C/\partia
 
 $\delta^L_j = \dfrac{\partial C}{\partial z_j^l} = \dfrac{\partial C}{\partial a_j^l} \sigma'(z^L_j)$
 
-By combining equations of error evolution we can compute the error for any layer in the network. 
+By combining equations of error evolution we can compute the error for any layer in the network. To compute the derivatives with respect to any weight $\omega$ and bias $b$ the following equations will be useful:
+
+$\dfrac{\partial C}{\partial b} = \dfrac{\partial z}{\partial b} \dfrac{\partial a}{\partial z} \dfrac{\partial C}{\partial a} = 1 \cdot \delta$
+
+$\delta^L_j = \dfrac{\partial C}{\partial z_j^l} = \dfrac{\partial C}{\partial a_j^l} \sigma'(z^L_j)$
 
 
 
